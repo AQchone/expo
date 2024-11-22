@@ -1,0 +1,44 @@
+# Strava Tracker React Native App
+
+## Project Overview
+
+A React Native application for tracking Strava activities using Expo, Zustand for state management, and React Query for data fetching.
+
+## Prerequisites
+
+- Node.js (v18+)
+- Expo CLI
+- Strava Developer Account
+
+## Setup Instructions
+
+1. Clone the repository
+2. Run `npm install`
+3. Create `.env` file with Strava API credentials
+4. Run `expo start`
+
+## Features
+
+- OAuth Authentication with Strava
+- Activity tracking
+- Monthly statistics
+- Deep linking support
+
+## Technical Stack
+
+- React Native
+- Expo
+- Zustand
+- React Query
+- Strava API
+
+## Potential Improvements
+
+- Enhanced error handling
+- More detailed activity visualization
+- Offline support
+- Performance optimizations
+
+## Authentication Flow
+
+OAuth authentication handled via Strava redirect URI with secure token management.
